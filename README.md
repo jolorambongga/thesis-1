@@ -1,1 +1,7 @@
-These are the codes to train custom model using custom dataset on YOLOv5 using dataset from google drive.
+# MOTORCYCLE HELMET DETECTION 
+## TRAIN THE MODEL FOR RIDER DETECTION
+The "train-model-rider" is used for training the YOLOv5 model using custom dataset from kaggle uploaded on google-drive.
+## TRAIN THE MODEL FOR RIDER DETECTION
+The "train-model-helmet" is used for training the YOLOv5 model using custom dataset from roboflow uploaded on google-drive.
+## TRAIN THE MODEL FOR RIDER DETECTION
+The "train-model-license" is used for training the YOLOv5 model using custom dataset from roboflow uploaded on google-drive.
