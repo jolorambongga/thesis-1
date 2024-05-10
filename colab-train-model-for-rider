@@ -1,0 +1,36 @@
+=====================================================
+//  CONNECT GOOGLE DRIVE
+-----------------------------------------------------  
+from google.colab import drive
+drive.mount('/content/drive')
+  
+=====================================================
+//  CLONE YOLOv5
+-----------------------------------------------------
+!git clone https://github.com/ultralytics/yolov5  # clone
+%cd yolov5
+%pip install -qr requirements.txt comet_ml  # install
+import torch
+import utils
+display = utils.notebook_init()  # checks  
+  
+=====================================================
+//  MAKE OWN DATA.YAML FILE
+-----------------------------------------------------
+train: /path/to/train/images
+val: /path/to/validate/images
+test: /path/to/test/images
+# Classes
+names:
+  0: RIDER  # <-- your classes
+  
+=====================================================
+//  TRAIN YOUR YOLOv5 MODEL BASED ON YOUR CUSTOM DATASET
+-----------------------------------------------------
+!python train.py --img 640 --batch 16 --epochs 3 --data YOURDATA.yaml --weights yolov5s.pt --cache
+  
+=====================================================
+//  TEST YOUR MODEL THROUGH DETECTION
+-----------------------------------------------------
+!python detect.py --weights runs/train/exp/weights/best.pt --img 640 --conf 0.25 --source data/images/test.jpg
+# display.Image(filename='runs/detect/exp/zidane.jpg', width=600)  
