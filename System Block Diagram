@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-09T11:45:59.537Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="uaIqaGG1Gbqp2z1om94W" version="24.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-09T11:46:08.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="xmiNCnx8v_yXZnRC4wxU" version="24.4.8" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="716" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -52,8 +52,14 @@
         <mxCell id="RglN5ylAreHheolcuPLg-14" value="Content Script" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RglN5ylAreHheolcuPLg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RglN5ylAreHheolcuPLg-17" target="RglN5ylAreHheolcuPLg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RglN5ylAreHheolcuPLg-17" value="FastAPI(Client-side inference)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RglN5ylAreHheolcuPLg-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RglN5ylAreHheolcuPLg-18" target="RglN5ylAreHheolcuPLg-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RglN5ylAreHheolcuPLg-18" value="FastAPI(Client-side inference)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="210" width="120" height="60" as="geometry" />
